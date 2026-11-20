@@ -1,0 +1,45 @@
+.fade {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.3;
+}
+
+.modal {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+}
+
+.close:hover {
+    color: #c00;
+}
+
+.modal h2 {
+    margin-bottom: 1em;
+}
+
+.modal form {
+    width: 90%;
+}
